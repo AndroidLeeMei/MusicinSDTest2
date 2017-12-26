@@ -16,11 +16,12 @@ public class MainActivity extends AppCompatActivity {
     Button btnprev,btnpause,btnstop,btnplay,btnnext;
     ListView lv;
     TextView textView;
-    String[] songname=new String[]{"A","B","C","D"};
-    String[] songfile=new String[]{"A.mp3","B.mp3","C.mp3","D.mp3"};
+//    String[] songname=new String[]{"A","B","C","D"};
+//    String[] songfile=new String[]{"A.mp3","B.mp3","C.mp3","D.mp3"};…?
+//    int[] songfile=new int[]{R.raw.A,R.raw.0941,R.raw.0942,R.raw.0943};
 
-//    String[] songfile=new String[]{"001.mp3","0,"0942","0943"};
-//    String[] songfile=new String[]{"001.mp3","0941.mp3","0942.mp3","0943.mp3"};
+    String[] songname=new String[]{"001","0941","0942","0943"};
+    String[] songfile=new String[]{"001.mp3","0941.mp3","0942.mp3","0943.mp3"};
     private int cListItem=0;
     private boolean flag=false;
     private final String songpath="/sdcard/";
